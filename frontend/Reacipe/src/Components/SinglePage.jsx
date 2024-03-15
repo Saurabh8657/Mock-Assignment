@@ -32,7 +32,7 @@ export default function SinglePage() {
         <h3>Category: {singleItem.strCategory}</h3>
         <h3>Cusion: {singleItem.strArea}</h3>
       </div>
-      <Link to="/" className="btn btn-primary">
+      <Link to="/reciepe/favourites" className="btn btn-primary">
         {" "}
         Go Back{" "}
       </Link>
